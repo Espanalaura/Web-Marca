@@ -1,0 +1,11 @@
+/*formateo inicial*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*color de fondo*/
+body {
+    background: #9493f0;
+    color: #ffffff;
+}
