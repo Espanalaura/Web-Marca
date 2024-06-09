@@ -151,7 +151,7 @@ header img{
     color: var(--main-bg-color);
     font-size: 22px;
     font-family: "Poppins", sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     font-style: normal;  
 }
 
@@ -186,7 +186,12 @@ header img{
 
 #menu .circulo img{
     width: 60%;
+    transition: width 0.5s;
     border-radius: 10rem;
+}
+
+#menu .circulo img:hover{
+    width: 65%;
 }
 
 #menu .circulo{
@@ -197,7 +202,15 @@ header img{
     border:none;
     outline: 2px solid var(--main-text-color);
     outline-offset: 10px;
+
+    transition: background-color 1s ;
 }
+
+#menu .circulo:hover{
+    background-color: bisque;
+}
+
+
 
 
 
