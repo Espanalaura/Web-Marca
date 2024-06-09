@@ -32,7 +32,7 @@ body {
 
 .izquierda{
 
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -121,12 +121,43 @@ button{
     right: 15px;
  }
 
+
+
+/*Tamaño de header*/
 header{
     
-    height: 100vh;
+    height: 90vh;
 }
 
+header img{
+    width: 80%;
+}
 
+/*Seccionn nosotros*/
+#nosotros{
+    background-color: var(--main-text-color);
+    height: 700px;
+}
+
+#nosotros h1{
+    color: var(--main-bg-color);
+    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;  
+}
+
+#nosotros h5{
+    color: var(--main-bg-color);
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;  
+}
+
+#nosotros img{
+    width: 70%;
+}
 
 
 
@@ -181,6 +212,20 @@ header{
         transform: rotate(-45deg) translate(-5px, 1px);
     }
     .open{ transform: translateX(0) !important}
+
+    #nosotros h1{
+        
+        font-size: 50px;
+       
+    }
+    
+    #nosotros h5{
+        color: var(--main-bg-color);
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;  
+    }
 
     
 }
