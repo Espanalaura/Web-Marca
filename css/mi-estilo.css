@@ -160,6 +160,46 @@ header img{
 }
 
 
+/*Seccionn menu*/
+#menu{
+    background-color: var(--main-bg-color);
+    height: 700px;
+}
+
+#menu h1{
+    color: var(--main-text-color);
+    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;  
+}
+
+#menu h5{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: var(--main-text-color);
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;  
+}
+
+#menu .circulo img{
+    width: 60%;
+    border-radius: 10rem;
+}
+
+#menu .circulo{
+    background-color: var(--main-text-color);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border:none;
+    outline: 2px solid var(--main-text-color);
+    outline-offset: 10px;
+}
+
+
 
 
 
