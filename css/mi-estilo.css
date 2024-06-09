@@ -4,8 +4,14 @@
     padding: 0;
 }
 
+/*definiendo paletas de color segun diseño*/
+:root {
+    --main-bg-color: #004ff3; /*color de fondo principal*/
+    --main-text-color: #ededed; /*color de fondo principal*/
+  }
+
 /*color de fondo*/
 body {
-    background: #004ff3;
-    color: #ffffff;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
 }
