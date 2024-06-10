@@ -134,12 +134,13 @@ header img{
 }
 
 /*Seccionn nosotros*/
-#nosotros{
+#nosotros, #ambientes{
     background-color: var(--main-text-color);
-    height: 700px;
+    height: auto;
+    padding: 5%;
 }
 
-#nosotros h1{
+#nosotros, #ambientes h1{
     color: var(--main-bg-color);
     font-size: 70px;
     font-family: "Poppins", sans-serif;
@@ -148,6 +149,14 @@ header img{
 }
 
 #nosotros h5{
+    color: var(--main-bg-color);
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;  
+}
+
+#ambientes h5{
     color: var(--main-bg-color);
     font-size: 22px;
     font-family: "Poppins", sans-serif;
@@ -278,6 +287,10 @@ header img{
         font-family: "Poppins", sans-serif;
         font-weight: 100;
         font-style: normal;  
+    }
+
+    #menu{
+        height: auto;
     }
 
     
