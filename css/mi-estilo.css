@@ -165,17 +165,18 @@ header img{
 }
 
 #nosotros img{
-    width: 70%;
+    width: 80%;
+    border: 30px solid var(--main-bg-color);
 }
 
 
 /*Seccionn menu*/
-#menu{
+#menu, #contacto{
     background-color: var(--main-bg-color);
     height: 700px;
 }
 
-#menu h1{
+#menu, #contacto h1{
     color: var(--main-text-color);
     font-size: 70px;
     font-family: "Poppins", sans-serif;
@@ -184,6 +185,16 @@ header img{
 }
 
 #menu h5{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: var(--main-text-color);
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;  
+}
+
+#contacto h5{
     margin-top: 7%;
     margin-bottom: 7%;
     color: var(--main-text-color);
@@ -217,6 +228,11 @@ header img{
 
 #menu .circulo:hover{
     background-color: bisque;
+}
+
+#contacto img{
+    width: 80%;
+    border: 30px solid var(--main-text-color);
 }
 
 
@@ -276,21 +292,48 @@ header img{
     .open{ transform: translateX(0) !important}
 
     #nosotros h1{
-        
         font-size: 50px;
-       
     }
     
     #nosotros h5{
-        color: var(--main-bg-color);
-        font-size: 18px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 100;
-        font-style: normal;  
+        font-size: 18px; 
     }
 
-    #menu{
+    #menu h1{
+        font-size: 50px;
+    }
+    
+    #menu h5{
+        font-size: 18px; 
+    }
+
+    #menu, #contacto{
         height: auto;
+        padding: 5%;
+    }
+
+    #ambientes h1{
+        font-size: 50px;
+    }
+    
+    #ambientes h5{
+        font-size: 18px; 
+    }
+
+    #contacto h1{
+        font-size: 50px;
+    }
+    
+    #contacto h5{
+        font-size: 18px; 
+    }
+
+    header h1{
+        font-size: 50px;
+    }
+    
+    header h5{
+        font-size: 20px; 
     }
 
     
